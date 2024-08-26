@@ -1,0 +1,33 @@
+/* Style the root App component */
+.App {
+  display: flex; /* Center content horizontally */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh;
+  background-color: #282c34;
+  text-align: center;
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+/* Style the App logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Add animation to the App logo if motion preference is not reduced */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;/* Spin animation */
+  }
+}
+
+/* Define keyframes for the logo spin animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); /* Start at 0 degrees */
+  }
+  to {
+    transform: rotate(360deg);/* Rotate to 360 degrees */
+  }
+}
